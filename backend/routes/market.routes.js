@@ -11,5 +11,5 @@ module.exports = app => {
 
     router.delete("/", market.delete);
 
-    app.use("/api/market", router);
+    app.use("/api/markets", router);
 }

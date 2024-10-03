@@ -8,7 +8,7 @@ export class MarketService {
 
 
   constructor(private httpClient: HttpClient) { }
-  endpoint = "http://localhost:8080/api/market";
+  endpoint = "http://localhost:8080/api/markets";
 
   getAll() {
     return this.httpClient.get(this.endpoint);
@@ -25,7 +25,7 @@ export class MarketService {
     body.append("traderName",traderName);
     body.append("type", type);
     body.append("price",price.toString());
-    body.append("madeIn", sellFrom);
+    body.append("sellForm", sellFrom);
 
     return this.httpClient.post(this.endpoint, body, {headers});
   }
@@ -35,8 +35,8 @@ export class MarketService {
 
   }
 
-  delete(){
-    
+  delete(id:any){
+    return this.httpClient.delete(`${this.endpoint}/${id}`)
   }
 
 }

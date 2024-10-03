@@ -21,7 +21,6 @@ export class AddProductPage implements OnInit {
       type: ['', Validators.compose([Validators.required])],
       price: ['', Validators.compose([Validators.required])],
       sellFrom: ['', Validators.compose([Validators.required])],
-      expiringData: ['']
     });
 
   }
@@ -37,7 +36,7 @@ export class AddProductPage implements OnInit {
     const traderName = this.marketForm.value.traderName;
     const type = this.marketForm.value.type;
     const price = this.marketForm.value.price;
-    const sellFrom = this.marketForm.value.madeIn;
+    const sellFrom = this.marketForm.value.sellFrom;
 
     this.marketService.create(traderName, type, price, sellFrom).subscribe((response) => {
       console.log("Se creo la tienda")
@@ -51,11 +50,5 @@ export class AddProductPage implements OnInit {
   goToHome(){
     this.router.navigateByUrl("/home")
   }
-
-  createItemPrueba(traderName: string, type: string, price: number, sellFrom: string) {
-     this.marketService.create(traderName, type, price, sellFrom).subscribe((response) => {
-       console.log("Se creo la tienda")
-     });
-   }
 
 }

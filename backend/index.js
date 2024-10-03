@@ -15,15 +15,15 @@ app.use(express.urlencoded({ extended: true }));
 
 const db = require("./models");
 
-db.sequelize.sync().then(() => {
-    +
-        console.log("dabase already sync")
-})
-
-// db.sequelize.sync({ force: true }).then(() => {
+// db.sequelize.sync().then(() => {
 //     +
-//     console.log("dabase already sync")
+//         console.log("dabase already sync")
 // })
+
+db.sequelize.sync({ force: true }).then(() => {
+    +
+    console.log("dabase already sync")
+})
 
 app.get("/", (req, res) => {
     return res.json({

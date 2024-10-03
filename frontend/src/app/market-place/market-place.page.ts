@@ -33,4 +33,13 @@ export class MarketPlacePage implements OnInit {
     this.router.navigateByUrl("/home")
   }
 
+
+  deleteItem(id: any){
+    this.marketService.delete(id).subscribe(response =>{
+      this.getAllMarkets();
+    })
+  }
+
+
+
 }

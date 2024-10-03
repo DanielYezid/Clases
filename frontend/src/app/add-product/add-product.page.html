@@ -46,10 +46,6 @@
         </ion-note>
   </form>
 </div>
-  <ion-button type ="submit" [disabled]="!marketForm.valid" (click) = "createItem()">Crear Tienda</ion-button>
-
-  <ion-button (click) = "createItemPrueba('Dani', 'Laptop',400,'España')">Crear una tienda de prueba</ion-button>
-
-
+  <ion-button type ="submit" [disabled]="!marketForm.valid" (click) = "createItem(); goToHome()">Crear Tienda</ion-button>
 
 </ion-content>

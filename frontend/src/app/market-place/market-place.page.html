@@ -16,12 +16,13 @@
     <p>Lista Ejemplo</p>
 
     <ion-list>
-      <ion-item *ngFor=" let s of market">
+      <ion-item *ngFor=" let m of market">
         <ol>
-        <p>Nombre del Vendedor: {{s.traderName}}</p>
-        <p>Objeto a vender: {{s.type}}</p>
-        <p>Precio: {{s.price}}</p>
-        <p>Lugar de fabricado: {{s.sellFrom}}</p>
+        <p>Nombre del Vendedor: {{m.traderName}}</p>
+        <p>Objeto a vender: {{m.type}}</p>
+        <p>Precio: {{m.price}}</p>
+        <p>Lugar de fabricado: {{m.sellFrom}}</p>
+        <ion-button (click)="deleteItem(m.id)">Delete</ion-button>
       </ol>
       </ion-item>  
   </ion-list>

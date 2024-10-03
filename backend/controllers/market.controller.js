@@ -7,7 +7,7 @@ exports.create = (req, res) => {
         traderName: req.body.traderName,
         type: req.body.type,
         price: req.body.price,
-        madeIn: req.body.madeIn,
+        sellFrom: req.body.sellFrom,
     }
 
     Market.create(market).then((data) => {
