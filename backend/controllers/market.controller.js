@@ -31,5 +31,9 @@ exports.update = (req, res) => {
 }
 
 exports.delete = (req, res) => {
-
+    const id = req.params.id;
+    Market.destroy({ where: { id: id } }).then(() => {
+        console.log("Entry erased");
+        res.send({ message: "Erased." });
+    })
 }

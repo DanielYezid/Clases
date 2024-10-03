@@ -35,9 +35,10 @@ export class MarketPlacePage implements OnInit {
 
 
   deleteItem(id: any){
-    this.marketService.delete(id).subscribe(response =>{
+    this.marketService.delete(id).subscribe((response) => {
       this.getAllMarkets();
-    })
+  
+    });
   }
 
 

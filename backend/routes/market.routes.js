@@ -9,7 +9,7 @@ module.exports = app => {
 
     router.put("/", market.update);
 
-    router.delete("/", market.delete);
-
+    router.delete("/:id", market.delete);
+    
     app.use("/api/markets", router);
 }
