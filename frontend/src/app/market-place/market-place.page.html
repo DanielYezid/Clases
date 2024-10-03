@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Market-Place</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Market-Place</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <div id="container">
+    <p>Lista Ejemplo</p>
+
+    <ion-list>
+      <ion-item *ngFor=" let s of market">
+        <ol>
+        <p>Nombre del Vendedor: {{s.traderName}}</p>
+        <p>Objeto a vender: {{s.type}}</p>
+        <p>Precio: {{s.price}}</p>
+        <p>Lugar de fabricado: {{s.sellFrom}}</p>
+      </ol>
+      </ion-item>  
+  </ion-list>
+
+  <ion-button (click) = "goToHome()">Volver a la pagina de inicio</ion-button>
+  </div>
+</ion-content>

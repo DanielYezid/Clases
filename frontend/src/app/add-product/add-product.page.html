@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title size="large">
+        add-product
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+<div>
+  <form [formGroup]="marketForm" (ngSubmit)="createItem()">
+    <ion-item>
+      <ion-label position="floating">Nombre el vendedor</ion-label>
+      <p></p>
+      <ion-input formControlName="traderName" type="text"></ion-input>
+    </ion-item>
+    <ion-note color="danger" *ngIf="getFormControl('traderName')?.hasError('required') && getFormControl('traderName')?.touched">
+    La identificación del vendedor es obligatoria
+    </ion-note>
+
+    <ion-item>
+    <ion-label position = "floating">Producto a vender</ion-label>
+    <p></p>
+    <ion-input formControlName="type" type="text"></ion-input>
+    </ion-item>
+    <ion-note color="danger" *ngIf="getFormControl('type')?.hasError('required') && getFormControl('type')?.touched">
+    Es obligaorio indicar que busca vender
+    </ion-note>
+
+    <ion-item>
+      <ion-label position = "floating">Precio del Producto</ion-label>
+      <p></p>
+      <ion-input formControlName="price" type="number"></ion-input>
+      </ion-item>
+      <ion-note color="danger" *ngIf="getFormControl('price')?.hasError('required') && getFormControl('price')?.touched">
+      Es obligaorio indicar que busca vender
+      </ion-note>
+
+      <ion-item>
+        <ion-label position = "floating">Lugar desde donde envia el producto</ion-label>
+        <p></p>
+        <ion-input formControlName="sellFrom" type="text"></ion-input>
+        </ion-item>
+        <ion-note color="danger" *ngIf="getFormControl('sellFrom')?.hasError('required') && getFormControl('sellFrom')?.touched">
+        Es obligaorio indicar desde donde envia el producto a vender
+        </ion-note>
+  </form>
+</div>
+  <ion-button type ="submit" [disabled]="!marketForm.valid" (click) = "createItem()">Crear Tienda</ion-button>
+
+  <ion-button (click) = "createItemPrueba('Dani', 'Laptop',400,'España')">Crear una tienda de prueba</ion-button>
+
+
+
+</ion-content>
