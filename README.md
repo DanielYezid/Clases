@@ -2,20 +2,26 @@
 
 This project is for a web site made for sellers, where you can post what things you don´t use or want anymore, and with that you can earn money.
 
-## beginning 🚀
+## Beginning 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_First of all, if you want to work with our prroject you will have to install some packages in your visual code studio, lets star talking about what do you have to install before start working._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+### Prerequisites 📋
 
+_Before we start, we have to install the visual studio code, in case we don't have it yet, but, assuming that we have it, lets tal about some packages._
 
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
+_The first thing we are instaling are some programs thata we are going to use._
 ```
-Da un ejemplo
+Visual Studio Code: https://code.visualstudio.com/download
+Node JavaScript: https://nodejs.org/en/
+JDK: https://www.oracle.com/java/technologies/downloads/
+MYSQL Server: https://dev.mysql.com/downloads/installer/
+MYSQL Workbench: https://dev.mysql.com/downloads/workbench/
+Postman: https://www.postman.com/downloads/
 ```
+
+_Before we start, we have to install the visual studio code, in case we don't have it yet, but, assuming that we have it, lets tal about some packages._
+
 
 ### Instalación 🔧
 
@@ -83,8 +89,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Daniel Yezid Roncancio Garcia** - *Work & Documetation* - [Clases](https://github.com/DanielYezid/Clases.git)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
