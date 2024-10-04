@@ -52,9 +52,13 @@ ionic serve
 
 ## Built With 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_For this project we used Visual Studio Code as our tewxt editor_
 
 * [Visual Studio Code](https://code.visualstudio.com/download) - Our text editor.
+
+* ## Wiki 📖
+
+_A small [wiki](https://github.com/DanielYezid/wiki.git) where al the resources we used to build this website_
 
 ## Postman 🖇️
 * [Postman: Markets](https://www.postman.com/danielyezid/market/request/7fd9j50/http-localhost-8080-api-markets-7?action=share&creator=38432283&ctx=documentation)
