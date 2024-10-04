@@ -29,9 +29,12 @@ _Lastly we need to install ionic in our visual code, for that open a git bash te
 ```
 npm install -g @ionic/cli
 ```
-_With tha we have the ionic installed in our studio code_
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_We only need a few things more, and that are express, sequelize, mysql2 and cors,so, in the terminal we have to run this two commands:_
+```
+npm install express
+npm install sequelize mysql2
+npm install cors
+```
 
 
 ## Starting frontend and backend ⚙️
