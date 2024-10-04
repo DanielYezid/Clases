@@ -12,7 +12,6 @@ _Before we start, we have to install the visual studio code, in case we don't ha
 
 _The first thing we are instaling are some programs thata we are going to use._
 ```
-Visual Studio Code: https://code.visualstudio.com/download
 Node JavaScript: https://nodejs.org/en/
 JDK: https://www.oracle.com/java/technologies/downloads/
 MYSQL Server: https://dev.mysql.com/downloads/installer/
@@ -32,67 +31,35 @@ npm install -g @ionic/cli
 ```
 _With tha we have the ionic installed in our studio code_
 
-
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
-## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+## Starting frontend and backend ⚙️
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
+_With all instaled, lets start by starting the back end first, for that we need to open Visual Studio, open a terminal and move to de backend folder, and then we have tu run it with the nodeJS_
 ```
-Da un ejemplo
+cd Market/backend/
+
+node index.js
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
+_As for the frontend, we have to do something similar, but in this case, we will have to move to the frontend folder, and the run the ionic we installed earlier_
 ```
-Da un ejemplo
+cd Market/frontend/
+
+ionic serve
 ```
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
+## Built With 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Visual Studio Code](https://code.visualstudio.com/download) - Our text editor.
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+## Postman 🖇️
+* [Postman: Markets](https://www.postman.com/danielyezid/market/request/7fd9j50/http-localhost-8080-api-markets-7?action=share&creator=38432283&ctx=documentation)
 
 ## Autores ✒️
 
 * **Daniel Yezid Roncancio Garcia** - *Work & Documetation* - [Clases](https://github.com/DanielYezid/Clases.git)
-
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
 
