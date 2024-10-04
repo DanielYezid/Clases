@@ -29,7 +29,7 @@ _Lastly we need to install ionic in our visual code, for that open a git bash te
 ```
 npm install -g @ionic/cli
 ```
-_We only need a few things more, and that are express, sequelize, mysql2 and cors,so, in the terminal we have to run this two commands:_
+_We only need a few things more, and that are express, sequelize, mysql2 and cors,so, in the terminal we have to run this two commands, but this has to be in the backend folder:_
 ```
 npm install express
 npm install sequelize mysql2
