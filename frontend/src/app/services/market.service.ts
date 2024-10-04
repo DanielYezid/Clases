@@ -36,7 +36,7 @@ export class MarketService {
   }
 
   delete(id: any){
-    
+
     return this.httpClient.delete(`${this.endpoint}/${id}`);
   }
 
