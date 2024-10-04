@@ -65,7 +65,7 @@ _A small [wiki](https://github.com/DanielYezid/wiki.git) where al the resources 
 
 ## Postman 🖇️
 _Here you will find our endspoints in the postman website._
-* [Postman: Markets](https://www.postman.com/danielyezid/market/request/7fd9j50/http-localhost-8080-api-markets-7?action=share&creator=38432283&ctx=documentation)
+* [Postman: Markets](https://documenter.getpostman.com/view/38432283/2sAXxMet8B)
 
 ## Autors ✒️
 
