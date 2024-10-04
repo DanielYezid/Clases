@@ -1,8 +1,8 @@
-# Título del Proyecto
+# Mega-Market
 
-_Acá va un párrafo que describa lo que es el proyecto_
+This project is for a web site made for sellers, where you can post what things you don´t use or want anymore, and with that you can earn money.
 
-## Comenzando 🚀
+## beginning 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
