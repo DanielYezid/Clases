@@ -18,26 +18,20 @@ JDK: https://www.oracle.com/java/technologies/downloads/
 MYSQL Server: https://dev.mysql.com/downloads/installer/
 MYSQL Workbench: https://dev.mysql.com/downloads/workbench/
 Postman: https://www.postman.com/downloads/
+GIT: https://git-scm.com/downloads
 ```
 
-_Before we start, we have to install the visual studio code, in case we don't have it yet, but, assuming that we have it, lets tal about some packages._
+### Installation 🔧
 
+_Before we can start working with our code, we have to install some packages in our Visual Studio Code._
 
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+_Lastly we need to install ionic in our visual code, for that open a git bash terminal and writ down this comand:_
 
 ```
-Da un ejemplo
+npm install -g @ionic/cli
 ```
+_With tha we have the ionic installed in our studio code_
 
-_Y repite_
-
-```
-hasta finalizar
-```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
@@ -87,11 +81,8 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Daniel Yezid Roncancio Garcia** - *Work & Documetation* - [Clases](https://github.com/DanielYezid/Clases.git)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
@@ -105,7 +96,3 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
 * etc.
 
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
