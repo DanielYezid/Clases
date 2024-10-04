@@ -1,6 +1,6 @@
 # Mega-Market
 
-This project is for a web site made for sellers, where you can post what things you don´t use or want anymore, and with that you can earn money.
+#### This project involves the development of a web platform designed for sellers, where users can post items they no longer use or wish to sell. Through this platform, users have the opportunity to earn extra income by selling products they no longer need.
 
 ## Beginning 🚀
 
